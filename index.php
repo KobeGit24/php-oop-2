@@ -32,11 +32,6 @@
 
   class Cube extends Square {
 
-    public function __construct($l1) {
-
-      parent::__construct($l1);
-    }
-
     public function getVol() {
 
       return parent::getArea() * $this -> l1;
