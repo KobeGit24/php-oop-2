@@ -34,12 +34,12 @@
 
     public function getVol() {
 
-      return parent::getArea() * $this -> l1;
+      return $this-> getArea() * $this -> l1;
     }
 
     public function getSuper() {
 
-      return parent::getArea() * 6;
+      return $this-> getArea() * 6;
     }
 
     public function __toString() {
